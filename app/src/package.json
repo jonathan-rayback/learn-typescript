@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "build-ts": "tsc",
+    "build": "npm run build-ts",
+    "start": "node ../dist/app.js"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.10",
+    "ts-standard": "^11.0.0",
+    "typescript": ">=3.3.1 <4.5.0"
+  },
+  "ts-standard": {
+    "project": "tsconfig.json"
+  }
+}
